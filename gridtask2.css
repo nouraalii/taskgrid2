@@ -1,0 +1,37 @@
+
+.grid { 
+    display: grid;
+  grid-template-areas:
+    'A A B'
+    'C D B';
+  gap: 20px;
+  padding: 10px;
+}
+
+.grid div {
+    background-color: rgba(53, 53, 53, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    border-style: hidden;
+    border-radius: 7px;
+    padding-top: 40px;
+  }
+
+.A{
+    grid-area: A;
+}
+
+.B{
+    grid-area: B;
+    height: 200px;
+    width: 150px;
+}
+
+.C{
+    grid-area: C;
+}
+
+.D{
+    grid-area: D;
+}
